@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Cibert Chen</title>
+    <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/</link>
+    <description>Recent content in Categories on Cibert Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language</title>
+      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/language/</link>
+      <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
+      
+      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/tool/</link>
+      <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
+      
+      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School</title>
+      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/categories/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

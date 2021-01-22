@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Cibert Chen</title>
+    <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/tags/hugo/</link>
+    <description>Recent content in hugo on Cibert Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jan 2021 13:06:39 +0800</lastBuildDate><atom:link href="https://github.com/mygithub-cx/mygithub-cx.github.io.git/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FirstUseBlog</title>
+      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</link>
+      <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
+      
+      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</guid>
+      <description>this is my Blog 第一次写Blog当然是要写我的这个东西是怎么弄的了,不然以后忘记了还要到处找
+用了哪些东西    构成 具体工具     存放平台 GitHub   版本工具 Git   Blog工具 hugo   主题 keepit    一些命令 首先要搭配环境变量
+ 新建一个Blog站点 hugo new site blog  选择主题 去themes.gohugo.io cd themes git clone [主题地址]  本地运行 hugo server [-t KeepIt] --buildDrafts  新建文章 hugo new post/[文章名字]   </description>
+    </item>
+    
+  </channel>
+</rss>
