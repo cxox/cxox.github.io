@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Cibert Chen</title>
-        <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/</link>
+        <link>https://mygithub-cx.github.io/</link>
         <description>Recent content on Cibert Chen</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://github.com/mygithub-cx/mygithub-cx.github.io.git/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Markdown</title>
-        <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/markdown/</link>
+        <link>https://mygithub-cx.github.io/p/markdown/</link>
         <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
         
-        <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/markdown/</guid>
-        <description>&lt;img src="https://github.com/post/markDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
+        <guid>https://mygithub-cx.github.io/p/markdown/</guid>
+        <description>&lt;img src="https://mygithub-cx.github.io/post/markDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
 &lt;p&gt;这是vscode的快捷键,
 vscode比较适合写markdown&lt;/p&gt;
 &lt;table&gt;
@@ -141,11 +141,11 @@ vscode比较适合写markdown&lt;/p&gt;
         </item>
         <item>
         <title>Vim</title>
-        <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/vim/</link>
+        <link>https://mygithub-cx.github.io/p/vim/</link>
         <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
         
-        <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/vim/</guid>
-        <description>&lt;img src="https://github.com/post/vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
+        <guid>https://mygithub-cx.github.io/p/vim/</guid>
+        <description>&lt;img src="https://mygithub-cx.github.io/post/vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
 &lt;h2 id=&#34;三种模式&#34;&gt;三种模式&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -339,11 +339,11 @@ vscode比较适合写markdown&lt;/p&gt;
         </item>
         <item>
         <title>FirstUseBlog</title>
-        <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</link>
+        <link>https://mygithub-cx.github.io/p/firstuseblog/</link>
         <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
         
-        <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</guid>
-        <description>&lt;img src="https://github.com/post/firstUseBlog/test.jpg" alt="Featured image of post FirstUseBlog" /&gt;&lt;h1 id=&#34;this-is-my-blog&#34;&gt;this is my Blog&lt;/h1&gt;
+        <guid>https://mygithub-cx.github.io/p/firstuseblog/</guid>
+        <description>&lt;img src="https://mygithub-cx.github.io/post/firstUseBlog/test.jpg" alt="Featured image of post FirstUseBlog" /&gt;&lt;h1 id=&#34;this-is-my-blog&#34;&gt;this is my Blog&lt;/h1&gt;
 &lt;p&gt;第一次写Blog当然是要写我的这个东西是怎么弄的了,不然以后忘记了还要到处找&lt;/p&gt;
 &lt;h2 id=&#34;用了哪些东西&#34;&gt;用了哪些东西&lt;/h2&gt;
 &lt;table&gt;
@@ -393,11 +393,11 @@ git clone [主题地址]
         </item>
         <item>
         <title>java 与 数据库</title>
-        <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+        <link>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
         <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
         
-        <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-        <description>&lt;img src="https://github.com/post/java_Database/java.png" alt="Featured image of post java 与 数据库" /&gt;&lt;h1 id=&#34;java-与-数据库-连接操作&#34;&gt;Java 与 数据库 连接操作&lt;/h1&gt;
+        <guid>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+        <description>&lt;img src="https://mygithub-cx.github.io/post/java_Database/java.png" alt="Featured image of post java 与 数据库" /&gt;&lt;h1 id=&#34;java-与-数据库-连接操作&#34;&gt;Java 与 数据库 连接操作&lt;/h1&gt;
 &lt;h2 id=&#34;加载驱动&#34;&gt;加载驱动&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;建立连接&#34;&gt;建立连接&lt;/h2&gt;

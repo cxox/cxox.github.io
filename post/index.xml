@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Cibert Chen</title>
-    <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/post/</link>
+    <link>https://mygithub-cx.github.io/post/</link>
     <description>Recent content in Posts on Cibert Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://github.com/mygithub-cx/mygithub-cx.github.io.git/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/markdown/</link>
+      <link>https://mygithub-cx.github.io/p/markdown/</link>
       <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
       
-      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/markdown/</guid>
+      <guid>https://mygithub-cx.github.io/p/markdown/</guid>
       <description>md 这是vscode的快捷键, vscode比较适合写markdown
    快捷键 作用     alt + v 打开编辑栏的查看   ctrl + b 左侧列表   ctrl+shift+k 删除一行    列表 + 我是谁 + 这是哪里? + 这个怎么样? + 有序列表[^1] + 大苏打 1. fedfsd 2. fsdfsD  我是谁 这是哪里? 这个怎么样? 有序列表1 大苏打  fedfsd fsdfsD    琐碎的东西 md文件可以使用html语句 &amp;lt;img src=&amp;#34;https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&amp;amp;fm=26&amp;amp;gp=0.jpg&amp;#34;&amp;gt; 看开这里不行,不然应该在这句话上面是显示下面这张图
 字体 *斜体* **粗体** ***粗斜体*** 斜体 粗体 粗斜体
@@ -21,20 +21,20 @@
     
     <item>
       <title>Vim</title>
-      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/vim/</link>
+      <link>https://mygithub-cx.github.io/p/vim/</link>
       <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
       
-      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/vim/</guid>
+      <guid>https://mygithub-cx.github.io/p/vim/</guid>
       <description>Vim 三种模式   控制模式
  i  文本编辑模式   跳转 w  跳到下一个单词   b  向左移动光标，以单词为单位   光标的移动  j 向下 k 向上 h 向左 l 向右   ^  跳转到该行的首个字符   0  跳转到该行的行首   $  跳转到该行的行尾   a  在行尾添加文字   o  新建并跳转到下一行进行输入   H  跳转到该页的头部   M  跳转到该页的中间   L  跳转到该页的底部   m[a-z]  添加标记,标记为[a-z]   &amp;lsquo;[a-z]  跳回标记处   { / }  在段落之间跳转   g  [number]gg 跳转到指定行 G 跳到文档最后   x  剪切字符 [number]x 删除number个字符   d  删除  dd 删除一行 d[number]j 向下删除number行和本行 d[number]j 向上删除number行和本行     D  删除到行尾   y  复制  yy 复制本行 y[number]y 向下复制number行     u  撤销操作   ctrl + r  恢复撤销的操作   p  粘贴  [number]p 粘贴number遍     /  搜索   替换  格式  %s/旧内容/新内容 所有内容 s/旧内容/新内容 选中的部分 后面添加 /c 会询问是否替换，可以一个一个确认     :  sp 横向分屏 vsp 纵向分屏 w 写入文件 q 退出 x 保存并退出      插入模式</description>
     </item>
     
     <item>
       <title>FirstUseBlog</title>
-      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</link>
+      <link>https://mygithub-cx.github.io/p/firstuseblog/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/firstuseblog/</guid>
+      <guid>https://mygithub-cx.github.io/p/firstuseblog/</guid>
       <description>this is my Blog 第一次写Blog当然是要写我的这个东西是怎么弄的了,不然以后忘记了还要到处找
 用了哪些东西    构成 具体工具     存放平台 GitHub   版本工具 Git   Blog工具 hugo   主题 keepit    一些命令 首先要搭配环境变量
  新建一个Blog站点 hugo new site blog  选择主题 去themes.gohugo.io cd themes git clone [主题地址]  本地运行 hugo server [-t KeepIt] --buildDrafts  新建文章 hugo new post/[文章名字]   </description>
@@ -42,10 +42,10 @@
     
     <item>
       <title>java 与 数据库</title>
-      <link>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://github.com/mygithub-cx/mygithub-cx.github.io.git/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>Java 与 数据库 连接操作 加载驱动 Class.forName(); 建立连接 Connection conn = Driverment.getConnection(url,username,password); 执行 Statement stat = conn.createStatement(); 更安全的版本 -&amp;gt; prepareStatement 防止sql注入 String sql = &amp;#34;select * from student where name = ? &amp;#34;; PrepareStatement stat = conn.ptepateStatement(); stat.setString(1,sql); 提取方法 /** *Object... params 可变参数 相当于数值 */ public int executeUpdate(String sql, Object... params) throws SQLException{ int result = 0; stat = conn.prepareStatement(sql); for(int i=0;i&amp;lt;prepareStatement.length;i++){ stat.setObject(i+1;Params[i]); } result = stat.executeUpdate(); return result; } 保证事务的原子性 // try.</description>
     </item>
     
