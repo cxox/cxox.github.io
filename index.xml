@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Cibert Chen</title>
+        <title>✧Cibert</title>
         <link>https://mygithub-cx.github.io/</link>
-        <description>Recent content on Cibert Chen</description>
+        <description>Recent content on ✧Cibert</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 23 Jan 2021 13:14:05 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的网站可以访问了!</title>
+        <link>https://mygithub-cx.github.io/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</link>
+        <pubDate>Sat, 23 Jan 2021 13:14:05 +0800</pubDate>
+        
+        <guid>https://mygithub-cx.github.io/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</guid>
+        <description>&lt;h1 id=&#34;图片呢&#34;&gt;图片呢&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://mygithub-cx.github.io/post/Life/xoxzzz.jpg&#34; alt=&#34;ddd&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown</title>
         <link>https://mygithub-cx.github.io/p/markdown/</link>
         <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
@@ -379,15 +389,29 @@ vscode比较适合写markdown&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo new site blog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;选择主题&lt;/code&gt; 去&lt;code&gt;themes.gohugo.io&lt;/code&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;k&#34;&gt;cd&lt;/span&gt; themes
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;// 每一个主题的页面都有使用方法
+&lt;span class=&#34;k&#34;&gt;cd&lt;/span&gt; themes
 git clone [主题地址]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;本地运行&lt;/code&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo server [-t KeepIt] --buildDrafts
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;新建文章&lt;/code&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo new post/[文章名字]
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo new post/[文章文件夹]/[文章名字]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;生成public文件夹&lt;/code&gt;
+&lt;pre&gt;&lt;code&gt;hugo --baseUrl=&amp;quot;https://[用户名].github.io/&amp;quot; --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最开始这里的地址写错了,格式老是加载不出来&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git相关&lt;/code&gt;
+先到public目录下
+&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git init
+git add .
+git commit -m &amp;quot;第一次提交&amp;quot;
+// git仓库新建时有提示
+git remote add origin git@github.com:xxxx/x.github.io.git
+git push -u master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

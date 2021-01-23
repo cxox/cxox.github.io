@@ -8,11 +8,15 @@
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='FirstUseBlog'>
 <meta property='og:description' content='第一次写blog自然是要记录一下使用的工具'>
 <meta property='og:url' content='https://mygithub-cx.github.io/p/firstuseblog/'>
-<meta property='og:site_name' content='Cibert Chen'>
+<meta property='og:site_name' content='✧Cibert'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:published_time' content='2021-01-22T13:06:39&#43;08:00'/><meta property='article:modified_time' content='2021-01-22T13:06:39&#43;08:00'/><meta property='og:image' content='https://mygithub-cx.github.io/post/firstUseBlog/test.jpg' />
 <meta name="twitter:title" content="FirstUseBlog">
 <meta name="twitter:description" content="第一次写blog自然是要记录一下使用的工具"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://mygithub-cx.github.io/post/firstUseBlog/test.jpg' />
+    <link rel="shortcut icon" href="https://github.com/mygithub-cx/mygithub-cx.github.io/tree/master/img/moon.ico" type="images/x-ico"/>
+    
+    
+
     </head>
     <body class="">
     <script>
@@ -58,12 +62,12 @@
                 
 
                 
-                    <span class="emoji">🍥</span>
+                    <span class="emoji">✌</span>
                 
             </figure>
         
-        <h1 class="site-name"><a href="https://mygithub-cx.github.io/">Cibert Chen</a></h1>
-        <h2 class="site-description">新鲜出炉的Blog站点</h2>
+        <h1 class="site-name"><a href="https://mygithub-cx.github.io/">✧Cibert</a></h1>
+        <h2 class="site-description">以后这里就是我的个人网络空间了,相当于QQ空间</h2>
     </header>
 
     <ol class="menu" id="main-menu">
@@ -262,15 +266,29 @@
 <div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">hugo new site blog
 </code></pre></div></li>
 <li><code>选择主题</code> 去<code>themes.gohugo.io</code>
-<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd"><span class="k">cd</span> themes
+<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">// 每一个主题的页面都有使用方法
+<span class="k">cd</span> themes
 git clone [主题地址]
 </code></pre></div></li>
 <li><code>本地运行</code>
 <div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">hugo server [-t KeepIt] --buildDrafts
 </code></pre></div></li>
 <li><code>新建文章</code>
-<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">hugo new post/[文章名字]
+<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">hugo new post/[文章文件夹]/[文章名字]
 </code></pre></div></li>
+<li><code>生成public文件夹</code>
+<pre><code>hugo --baseUrl=&quot;https://[用户名].github.io/&quot; --buildDrafts
+</code></pre><p>最开始这里的地址写错了,格式老是加载不出来</p>
+</li>
+<li><code>git相关</code>
+先到public目录下
+<pre><code class="language-git" data-lang="git">git init
+git add .
+git commit -m &quot;第一次提交&quot;
+// git仓库新建时有提示
+git remote add origin git@github.com:xxxx/x.github.io.git
+git push -u master
+</code></pre></li>
 </ul>
 
 </section>
@@ -335,58 +353,18 @@ git clone [主题地址]
 
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
-<style>
-    .disqus-container {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
-    }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (DISQUS) {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
-</script>
-
     
 
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
-        2021 Cibert Chen
+        2021 ✧Cibert
     </section>
     
     <section class="powerby">
+        
+            仅供个人使用 <br/>
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>

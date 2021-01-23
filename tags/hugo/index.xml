@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Cibert Chen</title>
+    <title>hugo on ✧Cibert</title>
     <link>https://mygithub-cx.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Cibert Chen</description>
+    <description>Recent content in hugo on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jan 2021 13:06:39 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,8 @@
       <guid>https://mygithub-cx.github.io/p/firstuseblog/</guid>
       <description>this is my Blog 第一次写Blog当然是要写我的这个东西是怎么弄的了,不然以后忘记了还要到处找
 用了哪些东西    构成 具体工具     存放平台 GitHub   版本工具 Git   Blog工具 hugo   主题 keepit    一些命令 首先要搭配环境变量
- 新建一个Blog站点 hugo new site blog  选择主题 去themes.gohugo.io cd themes git clone [主题地址]  本地运行 hugo server [-t KeepIt] --buildDrafts  新建文章 hugo new post/[文章名字]   </description>
+ 新建一个Blog站点 hugo new site blog  选择主题 去themes.gohugo.io // 每一个主题的页面都有使用方法 cd themes git clone [主题地址]  本地运行 hugo server [-t KeepIt] --buildDrafts  新建文章 hugo new post/[文章文件夹]/[文章名字]  生成public文件夹 hugo --baseUrl=&amp;quot;https://[用户名].github.io/&amp;quot; --buildDrafts 最开始这里的地址写错了,格式老是加载不出来
+ git相关 先到public目录下 git init git add .</description>
     </item>
     
   </channel>
