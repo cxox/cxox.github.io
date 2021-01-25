@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>text edit on ✧Cibert</title>
-    <link>https://mygithub-cx.github.io/tags/text-edit/</link>
+    <link>https://xoxzzz.com/tags/text-edit/</link>
     <description>Recent content in text edit on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 18:15:16 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/tags/text-edit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 18:15:16 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/tags/text-edit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vim</title>
-      <link>https://mygithub-cx.github.io/p/vim/</link>
+      <link>https://xoxzzz.com/p/vim/</link>
       <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/p/vim/</guid>
+      <guid>https://xoxzzz.com/p/vim/</guid>
       <description>Vim 三种模式   控制模式
  i  文本编辑模式   跳转 w  跳到下一个单词   b  向左移动光标，以单词为单位   光标的移动  j 向下 k 向上 h 向左 l 向右   ^  跳转到该行的首个字符   0  跳转到该行的行首   $  跳转到该行的行尾   a  在行尾添加文字   o  新建并跳转到下一行进行输入   H  跳转到该页的头部   M  跳转到该页的中间   L  跳转到该页的底部   m[a-z]  添加标记,标记为[a-z]   &amp;lsquo;[a-z]  跳回标记处   { / }  在段落之间跳转   g  [number]gg 跳转到指定行 G 跳到文档最后   x  剪切字符 [number]x 删除number个字符   d  删除  dd 删除一行 d[number]j 向下删除number行和本行 d[number]j 向上删除number行和本行     D  删除到行尾   y  复制  yy 复制本行 y[number]y 向下复制number行     u  撤销操作   ctrl + r  恢复撤销的操作   p  粘贴  [number]p 粘贴number遍     /  搜索   替换  格式  %s/旧内容/新内容 所有内容 s/旧内容/新内容 选中的部分 后面添加 /c 会询问是否替换，可以一个一个确认     :  sp 横向分屏 vsp 纵向分屏 w 写入文件 q 退出 x 保存并退出      插入模式</description>
     </item>

@@ -2,27 +2,205 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>✧Cibert</title>
-        <link>https://mygithub-cx.github.io/</link>
+        <link>https://xoxzzz.com/</link>
         <description>Recent content on ✧Cibert</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 23 Jan 2021 13:14:05 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Git</title>
+        <link>https://xoxzzz.com/p/git/</link>
+        <pubDate>Sun, 24 Jan 2021 18:53:26 +0800</pubDate>
+        
+        <guid>https://xoxzzz.com/p/git/</guid>
+        <description>&lt;h1 id=&#34;git使用&#34;&gt;Git使用&lt;/h1&gt;
+&lt;h2 id=&#34;登陆&#34;&gt;登陆&lt;/h2&gt;
+&lt;p&gt;使用ssh的方式更方便&lt;br&gt;
+首先找到用户目录下C:/user/username/.ssh&lt;br&gt;
+没有就自己建&lt;br&gt;
+然后打开gitbash&lt;br&gt;
+命令&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssh-keygen -t rsa [邮箱:可以不填]
+// 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/git/ssh.png&#34; alt=&#34;.ssh目录&#34;  /&gt;
+添加public公钥
+&lt;img src=&#34;https://xoxzzz.com/post/git/key.png&#34; alt=&#34;在gitee上使用public_key&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;git命令&#34;&gt;git命令&lt;/h2&gt;
+&lt;h3 id=&#34;第一次使用&#34;&gt;第一次使用&lt;/h3&gt;
+&lt;p&gt;设置全局的姓名和邮箱,可以区分是谁干了什么&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;姓名&amp;#34;&lt;/span&gt;
+git config --global user.email *********@**.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;常用命令&#34;&gt;常用命令&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;查看状态&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git status
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查看提交记录&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;无参数版
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git log
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;图形化显示分支情况
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git log --graph
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;来
+从网上其它仓库直接克隆&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git clone https:// *** *** ***.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;去&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;都提交到暂存区
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git add .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;提交到仓库
+&lt;ol&gt;
+&lt;li&gt;提交&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;提交描述&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;更正最近一次提交,不产生新的快照&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git commit --amend [-m &lt;span class=&#34;s2&#34;&gt;&amp;#34;新提交描述&amp;#34;&lt;/span&gt;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;回&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;放弃更改
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git restore -- &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; //将文件返回提交的模样,也就是放弃修改(这个做不好的话新写的文件就没有了!)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;reset&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;从暂存区返回&lt;/strong&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset HEAD &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;// 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从仓库返回&lt;/strong&gt;:文件状态恢复HEAD后有几个&amp;quot;~&amp;ldquo;就表示退到多少次提交之前,也可以用数字 HEAD~3 相当于 HEAD~~~&lt;br&gt;
+回到指定的快照直接输入几位识别码就行,例如:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset 3j2ak43d3f
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;soft
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset --soft fc234dx
+// 只改变仓库内容,工作区和暂存区不受影响
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;mixed
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset --mixed HEAD~ 
+// (默认) 将快照回滚到暂存区,工作区不受影响
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;hard
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset --hard 243c4dx2werc234
+// 将快照还原到当前工作目录,所有区都受影响
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;只恢复单个文件
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset 3412qw43 filepath/filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;diff&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;比较暂存区与工作区(默认)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git diff
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;比较工作区与仓库
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git diff 快照id
+// 如果是比较最新提交的快照可以直接用 HEAD
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;比较两个历史版本
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git diff 快照id1 快照id2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分支&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建分支
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git branch [分支名]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;切换分支
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git checkout [分支名]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;合并分支,合并到本分支
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git merge [分支名]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;删除分支
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git branch -d [分支名]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;匿名分支:随便使用,不会对文件产生任何影响,可以做任何实验性的事情
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git checkout HEAD~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/git/branch.png&#34; alt=&#34;分支&#34;  /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与远程仓库的交互&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;查看连接状态
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;建立连接
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git remote [新连接的名字] [连接的地址]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;连接目标重命名
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git remote rename [oldName] [newName]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;推送到远程仓库
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git push [仓库名,例如origin]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;琐碎的小命令:并不是git的命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;k&#34;&gt;cd&lt;/span&gt;
+psw
+ls [-la]
+&lt;span class=&#34;k&#34;&gt;mkdir&lt;/span&gt;
+touch
+rm [-r]
+vim
+cat
+history
+clear
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;一些文件&#34;&gt;一些文件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.git文件夹&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.gitignore&lt;/strong&gt;:忽略文件&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>我的网站可以访问了!</title>
-        <link>https://mygithub-cx.github.io/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</link>
+        <link>https://xoxzzz.com/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</link>
         <pubDate>Sat, 23 Jan 2021 13:14:05 +0800</pubDate>
         
-        <guid>https://mygithub-cx.github.io/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</guid>
-        <description>&lt;h1 id=&#34;图片呢&#34;&gt;图片呢&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://mygithub-cx.github.io/post/Life/xoxzzz.jpg&#34; alt=&#34;ddd&#34;  /&gt;&lt;/p&gt;
+        <guid>https://xoxzzz.com/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</guid>
+        <description>&lt;h1 id=&#34;就是这样&#34;&gt;就是这样👇&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/Life/xoxzzz.jpg&#34; alt=&#34;ddd&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>https://mygithub-cx.github.io/p/markdown/</link>
+        <link>https://xoxzzz.com/p/markdown/</link>
         <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
         
-        <guid>https://mygithub-cx.github.io/p/markdown/</guid>
-        <description>&lt;img src="https://mygithub-cx.github.io/post/markDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
+        <guid>https://xoxzzz.com/p/markdown/</guid>
+        <description>&lt;img src="https://xoxzzz.com/post/markDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
 &lt;p&gt;这是vscode的快捷键,
 vscode比较适合写markdown&lt;/p&gt;
 &lt;table&gt;
@@ -151,11 +329,11 @@ vscode比较适合写markdown&lt;/p&gt;
         </item>
         <item>
         <title>Vim</title>
-        <link>https://mygithub-cx.github.io/p/vim/</link>
+        <link>https://xoxzzz.com/p/vim/</link>
         <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
         
-        <guid>https://mygithub-cx.github.io/p/vim/</guid>
-        <description>&lt;img src="https://mygithub-cx.github.io/post/vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
+        <guid>https://xoxzzz.com/p/vim/</guid>
+        <description>&lt;img src="https://xoxzzz.com/post/vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
 &lt;h2 id=&#34;三种模式&#34;&gt;三种模式&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -349,11 +527,11 @@ vscode比较适合写markdown&lt;/p&gt;
         </item>
         <item>
         <title>FirstUseBlog</title>
-        <link>https://mygithub-cx.github.io/p/firstuseblog/</link>
+        <link>https://xoxzzz.com/p/firstuseblog/</link>
         <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
         
-        <guid>https://mygithub-cx.github.io/p/firstuseblog/</guid>
-        <description>&lt;img src="https://mygithub-cx.github.io/post/firstUseBlog/test.jpg" alt="Featured image of post FirstUseBlog" /&gt;&lt;h1 id=&#34;this-is-my-blog&#34;&gt;this is my Blog&lt;/h1&gt;
+        <guid>https://xoxzzz.com/p/firstuseblog/</guid>
+        <description>&lt;img src="https://xoxzzz.com/post/firstUseBlog/test.jpg" alt="Featured image of post FirstUseBlog" /&gt;&lt;h1 id=&#34;this-is-my-blog&#34;&gt;this is my Blog&lt;/h1&gt;
 &lt;p&gt;第一次写Blog当然是要写我的这个东西是怎么弄的了,不然以后忘记了还要到处找&lt;/p&gt;
 &lt;h2 id=&#34;用了哪些东西&#34;&gt;用了哪些东西&lt;/h2&gt;
 &lt;table&gt;
@@ -394,15 +572,15 @@ vscode比较适合写markdown&lt;/p&gt;
 git clone [主题地址]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;本地运行&lt;/code&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo server [-t KeepIt] --buildDrafts
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo server [--buildDrafts]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;buildDrafts是显示草稿&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;新建文章&lt;/code&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;hugo new post/[文章文件夹]/[文章名字]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;生成public文件夹&lt;/code&gt;
-&lt;pre&gt;&lt;code&gt;hugo --baseUrl=&amp;quot;https://[用户名].github.io/&amp;quot; --buildDrafts
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最开始这里的地址写错了,格式老是加载不出来&lt;/p&gt;
-&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git相关&lt;/code&gt;
 先到public目录下
 &lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git init
@@ -417,11 +595,11 @@ git push -u master
         </item>
         <item>
         <title>java 与 数据库</title>
-        <link>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+        <link>https://xoxzzz.com/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
         <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
         
-        <guid>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-        <description>&lt;img src="https://mygithub-cx.github.io/post/java_Database/java.png" alt="Featured image of post java 与 数据库" /&gt;&lt;h1 id=&#34;java-与-数据库-连接操作&#34;&gt;Java 与 数据库 连接操作&lt;/h1&gt;
+        <guid>https://xoxzzz.com/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+        <description>&lt;img src="https://xoxzzz.com/post/java_Database/java.png" alt="Featured image of post java 与 数据库" /&gt;&lt;h1 id=&#34;java-与-数据库-连接操作&#34;&gt;Java 与 数据库 连接操作&lt;/h1&gt;
 &lt;h2 id=&#34;加载驱动&#34;&gt;加载驱动&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;Class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;forName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;建立连接&#34;&gt;建立连接&lt;/h2&gt;

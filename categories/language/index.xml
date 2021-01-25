@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Language on ✧Cibert</title>
-    <link>https://mygithub-cx.github.io/categories/language/</link>
+    <link>https://xoxzzz.com/categories/language/</link>
     <description>Recent content in Language on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/categories/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/categories/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>https://mygithub-cx.github.io/p/markdown/</link>
+      <link>https://xoxzzz.com/p/markdown/</link>
       <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/p/markdown/</guid>
+      <guid>https://xoxzzz.com/p/markdown/</guid>
       <description>md 这是vscode的快捷键, vscode比较适合写markdown
    快捷键 作用     alt + v 打开编辑栏的查看   ctrl + b 左侧列表   ctrl+shift+k 删除一行    列表 + 我是谁 + 这是哪里? + 这个怎么样? + 有序列表[^1] + 大苏打 1. fedfsd 2. fsdfsD  我是谁 这是哪里? 这个怎么样? 有序列表1 大苏打  fedfsd fsdfsD    琐碎的东西 md文件可以使用html语句 &amp;lt;img src=&amp;#34;https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&amp;amp;fm=26&amp;amp;gp=0.jpg&amp;#34;&amp;gt; 看开这里不行,不然应该在这句话上面是显示下面这张图
 字体 *斜体* **粗体** ***粗斜体*** 斜体 粗体 粗斜体
@@ -21,10 +21,10 @@
     
     <item>
       <title>java 与 数据库</title>
-      <link>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://xoxzzz.com/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https://xoxzzz.com/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>Java 与 数据库 连接操作 加载驱动 Class.forName(); 建立连接 Connection conn = Driverment.getConnection(url,username,password); 执行 Statement stat = conn.createStatement(); 更安全的版本 -&amp;gt; prepareStatement 防止sql注入 String sql = &amp;#34;select * from student where name = ? &amp;#34;; PrepareStatement stat = conn.ptepateStatement(); stat.setString(1,sql); 提取方法 /** *Object... params 可变参数 相当于数值 */ public int executeUpdate(String sql, Object... params) throws SQLException{ int result = 0; stat = conn.prepareStatement(sql); for(int i=0;i&amp;lt;prepareStatement.length;i++){ stat.setObject(i+1;Params[i]); } result = stat.executeUpdate(); return result; } 保证事务的原子性 // try.</description>
     </item>
     

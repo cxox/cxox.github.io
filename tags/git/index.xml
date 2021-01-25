@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on ✧Cibert</title>
+    <link>https://xoxzzz.com/tags/git/</link>
+    <description>Recent content in git on ✧Cibert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://xoxzzz.com/p/git/</link>
+      <pubDate>Sun, 24 Jan 2021 18:53:26 +0800</pubDate>
+      
+      <guid>https://xoxzzz.com/p/git/</guid>
+      <description>Git使用 登陆 使用ssh的方式更方便
+首先找到用户目录下C:/user/username/.ssh
+没有就自己建
+然后打开gitbash
+命令
+ ssh-keygen -t rsa [邮箱:可以不填] // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写
+ 添加public公钥 git命令 第一次使用 设置全局的姓名和邮箱,可以区分是谁干了什么
+git config --global user.name &amp;#34;姓名&amp;#34; git config --global user.email *********@**.com 常用命令   查看状态
+git status   查看提交记录
+ 无参数版 git log  图形化显示分支情况 git log --graph     来 从网上其它仓库直接克隆
+git clone https:// *** *** ***.git   去
+ 初始化 git init  都提交到暂存区 git add .</description>
+    </item>
+    
+  </channel>
+</rss>

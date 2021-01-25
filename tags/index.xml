@@ -2,71 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ✧Cibert</title>
-    <link>https://mygithub-cx.github.io/tags/</link>
+    <link>https://xoxzzz.com/tags/</link>
     <description>Recent content in Tags on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 13:14:05 +0800</lastBuildDate><atom:link href="https://mygithub-cx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://xoxzzz.com/tags/git/</link>
+      <pubDate>Sun, 24 Jan 2021 18:53:26 +0800</pubDate>
+      
+      <guid>https://xoxzzz.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>null</title>
-      <link>https://mygithub-cx.github.io/tags/null/</link>
+      <link>https://xoxzzz.com/tags/null/</link>
       <pubDate>Sat, 23 Jan 2021 13:14:05 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/null/</guid>
+      <guid>https://xoxzzz.com/tags/null/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://mygithub-cx.github.io/tags/markdown/</link>
+      <link>https://xoxzzz.com/tags/markdown/</link>
       <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/markdown/</guid>
+      <guid>https://xoxzzz.com/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text edit</title>
-      <link>https://mygithub-cx.github.io/tags/text-edit/</link>
+      <link>https://xoxzzz.com/tags/text-edit/</link>
       <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/text-edit/</guid>
+      <guid>https://xoxzzz.com/tags/text-edit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>https://mygithub-cx.github.io/tags/vim/</link>
+      <link>https://xoxzzz.com/tags/vim/</link>
       <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/vim/</guid>
+      <guid>https://xoxzzz.com/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
-      <link>https://mygithub-cx.github.io/tags/database/</link>
+      <link>https://xoxzzz.com/tags/database/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/database/</guid>
+      <guid>https://xoxzzz.com/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://mygithub-cx.github.io/tags/hugo/</link>
+      <link>https://xoxzzz.com/tags/hugo/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/hugo/</guid>
+      <guid>https://xoxzzz.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://mygithub-cx.github.io/tags/java/</link>
+      <link>https://xoxzzz.com/tags/java/</link>
       <pubDate>Fri, 22 Jan 2021 13:06:39 +0800</pubDate>
       
-      <guid>https://mygithub-cx.github.io/tags/java/</guid>
+      <guid>https://xoxzzz.com/tags/java/</guid>
       <description></description>
     </item>
     
