@@ -5,6 +5,7 @@
     <link>https://xoxzzz.com/tags/</link>
     <description>Recent content in Tags on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
+<<<<<<< HEAD
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -79,5 +80,8 @@
       <description></description>
     </item>
     
+=======
+    <language>en-us</language><atom:link href="https://xoxzzz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
   </channel>
 </rss>

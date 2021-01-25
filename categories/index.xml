@@ -5,6 +5,7 @@
     <link>https://xoxzzz.com/categories/</link>
     <description>Recent content in Categories on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
+<<<<<<< HEAD
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,33 +14,62 @@
       <pubDate>Sun, 24 Jan 2021 18:53:26 +0800</pubDate>
       
       <guid>https://xoxzzz.com/categories/tool/</guid>
+=======
+    <language>en-us</language><atom:link href="https://xoxzzz.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language</title>
+      <link>https://xoxzzz.com/categories/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xoxzzz.com/categories/language/</guid>
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
       <link>https://xoxzzz.com/categories/life/</link>
+<<<<<<< HEAD
       <pubDate>Sat, 23 Jan 2021 13:14:05 +0800</pubDate>
+=======
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
       
       <guid>https://xoxzzz.com/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>Language</title>
       <link>https://xoxzzz.com/categories/language/</link>
       <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
       
       <guid>https://xoxzzz.com/categories/language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
+=======
       <title>School</title>
       <link>https://xoxzzz.com/categories/school/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xoxzzz.com/categories/school/</guid>
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
+      <description></description>
+    </item>
+    
+    <item>
+<<<<<<< HEAD
+      <title>School</title>
+      <link>https://xoxzzz.com/categories/school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xoxzzz.com/categories/school/</guid>
+=======
+      <title>Tool</title>
+      <link>https://xoxzzz.com/categories/tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xoxzzz.com/categories/tool/</guid>
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
       <description></description>
     </item>
     

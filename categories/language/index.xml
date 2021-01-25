@@ -5,6 +5,7 @@
     <link>https://xoxzzz.com/categories/language/</link>
     <description>Recent content in Language on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
+<<<<<<< HEAD
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jan 2021 18:18:45 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/categories/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -28,5 +29,8 @@
       <description>Java 与 数据库 连接操作 加载驱动 Class.forName(); 建立连接 Connection conn = Driverment.getConnection(url,username,password); 执行 Statement stat = conn.createStatement(); 更安全的版本 -&amp;gt; prepareStatement 防止sql注入 String sql = &amp;#34;select * from student where name = ? &amp;#34;; PrepareStatement stat = conn.ptepateStatement(); stat.setString(1,sql); 提取方法 /** *Object... params 可变参数 相当于数值 */ public int executeUpdate(String sql, Object... params) throws SQLException{ int result = 0; stat = conn.prepareStatement(sql); for(int i=0;i&amp;lt;prepareStatement.length;i++){ stat.setObject(i+1;Params[i]); } result = stat.executeUpdate(); return result; } 保证事务的原子性 // try.</description>
     </item>
     
+=======
+    <language>en-us</language><atom:link href="https://xoxzzz.com/categories/language/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
   </channel>
 </rss>

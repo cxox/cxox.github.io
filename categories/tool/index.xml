@@ -5,6 +5,7 @@
     <link>https://xoxzzz.com/categories/tool/</link>
     <description>Recent content in Tool on ✧Cibert</description>
     <generator>Hugo -- gohugo.io</generator>
+<<<<<<< HEAD
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/categories/tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -49,5 +50,8 @@ git clone https:// *** *** ***.git   去
  新建文章 hugo new post/[文章文件夹]/[文章名字]  生成public文件夹 hugo  git相关 先到public目录下 git init git add .</description>
     </item>
     
+=======
+    <language>en-us</language><atom:link href="https://xoxzzz.com/categories/tool/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
   </channel>
 </rss>

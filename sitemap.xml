@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://xoxzzz.com/categories/</loc>
     <lastmod>2021-01-24T18:53:26+08:00</lastmod>
   </url>
@@ -128,6 +129,53 @@
   
   <url>
     <loc>https://xoxzzz.com/search/</loc>
+=======
+    <loc>https://xoxzzz.com/about/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/page/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/language/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/life/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/school/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/tool/</loc>
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
   </url>
   
 </urlset>

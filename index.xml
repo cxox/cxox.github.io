@@ -6,6 +6,7 @@
         <description>Recent content on ✧Cibert</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
+<<<<<<< HEAD
         <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Git</title>
         <link>https://xoxzzz.com/p/git/</link>
@@ -635,5 +636,8 @@ git push -u master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         
+=======
+        <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xoxzzz.com/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
     </channel>
 </rss>
