@@ -18,7 +18,7 @@
 没有就自己建
 然后打开gitbash
 命令
- ssh-keygen -t rsa [邮箱:可以不填] // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写
+ ssh-keygen -t rsa [-C 邮箱] // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写
  添加public公钥 git命令 第一次使用 设置全局的姓名和邮箱,可以区分是谁干了什么
 git config --global user.name &amp;#34;姓名&amp;#34; git config --global user.email *********@**.com 常用命令   查看状态
 git status   查看提交记录

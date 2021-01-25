@@ -230,12 +230,12 @@
 然后打开gitbash<br>
 命令</p>
 <blockquote>
-<p>ssh-keygen -t rsa [邮箱:可以不填]
+<p>ssh-keygen -t rsa [-C 邮箱]
 // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写</p>
 </blockquote>
-<p><img src="/post/git/ssh.png" alt=".ssh目录"  />
+<p><img src="/post/Git/ssh.png" alt=".ssh目录"  />
 添加public公钥
-<img src="/post/git/key.png" alt="在gitee上使用public_key"  /></p>
+<img src="/post/Git/key.png" alt="在gitee上使用public_key"  /></p>
 <h2 id="git命令">git命令</h2>
 <h3 id="第一次使用">第一次使用</h3>
 <p>设置全局的姓名和邮箱,可以区分是谁干了什么</p>
@@ -288,12 +288,14 @@ git config --global user.email *********@**.com
 <p>回</p>
 <ol>
 <li>放弃更改
-<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">git restore -- <span class="p">&lt;</span>filename<span class="p">&gt;</span> //将文件返回提交的模样,也就是放弃修改(这个做不好的话新写的文件就没有了!)
+<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">git restore -- <span class="p">&lt;</span>filename&gt; 
+//将文件返回提交的模样,也就是放弃修改(这个做不好的话新写的文件就没有了!)
 </code></pre></div></li>
 <li><strong>reset</strong>
 <ol>
 <li><strong>从暂存区返回</strong>
-<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">git reset HEAD <span class="p">&lt;</span>filename<span class="p">&gt;</span>// 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
+<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">git reset HEAD <span class="p">&lt;</span>filename&gt;
+// 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
 </code></pre></div></li>
 <li><strong>从仓库返回</strong>:文件状态恢复HEAD后有几个&quot;~&ldquo;就表示退到多少次提交之前,也可以用数字 HEAD~3 相当于 HEAD~~~<br>
 回到指定的快照直接输入几位识别码就行,例如:
@@ -354,7 +356,7 @@ git config --global user.email *********@**.com
 <div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">git checkout HEAD~
 </code></pre></div></li>
 </ul>
-<p><img src="/post/git/branch.png" alt="分支"  /></p>
+<p><img src="/post/Git/branch.png" alt="分支"  /></p>
 </li>
 <li>
 <p>与远程仓库的交互</p>
@@ -436,7 +438,7 @@ clear
         
             <div class="article-image">
                 
-                    <img src="/post/vim/vim.png" loading="lazy" data-key="" data-hash="/post/vim/vim.png"/>
+                    <img src="/post/Vim/vim.png" loading="lazy" data-key="" data-hash="/post/Vim/vim.png"/>
                 
             </div>
         

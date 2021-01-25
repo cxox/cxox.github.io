@@ -6,7 +6,6 @@
         <description>Recent content on ✧Cibert</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-<<<<<<< HEAD
         <lastBuildDate>Sun, 24 Jan 2021 18:53:26 +0800</lastBuildDate><atom:link href="https://xoxzzz.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Git</title>
         <link>https://xoxzzz.com/p/git/</link>
@@ -21,12 +20,12 @@
 然后打开gitbash&lt;br&gt;
 命令&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;ssh-keygen -t rsa [邮箱:可以不填]
+&lt;p&gt;ssh-keygen -t rsa [-C 邮箱]
 // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/git/ssh.png&#34; alt=&#34;.ssh目录&#34;  /&gt;
+&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/Git/ssh.png&#34; alt=&#34;.ssh目录&#34;  /&gt;
 添加public公钥
-&lt;img src=&#34;https://xoxzzz.com/post/git/key.png&#34; alt=&#34;在gitee上使用public_key&#34;  /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://xoxzzz.com/post/Git/key.png&#34; alt=&#34;在gitee上使用public_key&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;git命令&#34;&gt;git命令&lt;/h2&gt;
 &lt;h3 id=&#34;第一次使用&#34;&gt;第一次使用&lt;/h3&gt;
 &lt;p&gt;设置全局的姓名和邮箱,可以区分是谁干了什么&lt;/p&gt;
@@ -79,12 +78,14 @@ git config --global user.email *********@**.com
 &lt;p&gt;回&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;放弃更改
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git restore -- &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; //将文件返回提交的模样,也就是放弃修改(这个做不好的话新写的文件就没有了!)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git restore -- &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&amp;gt; 
+//将文件返回提交的模样,也就是放弃修改(这个做不好的话新写的文件就没有了!)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;reset&lt;/strong&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;从暂存区返回&lt;/strong&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset HEAD &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;// 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git reset HEAD &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;filename&amp;gt;
+// 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;从仓库返回&lt;/strong&gt;:文件状态恢复HEAD后有几个&amp;quot;~&amp;ldquo;就表示退到多少次提交之前,也可以用数字 HEAD~3 相当于 HEAD~~~&lt;br&gt;
 回到指定的快照直接输入几位识别码就行,例如:
@@ -145,7 +146,7 @@ git config --global user.email *********@**.com
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;git checkout HEAD~
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/git/branch.png&#34; alt=&#34;分支&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xoxzzz.com/post/Git/branch.png&#34; alt=&#34;分支&#34;  /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;与远程仓库的交互&lt;/p&gt;
@@ -201,7 +202,7 @@ clear
         <pubDate>Fri, 22 Jan 2021 18:18:45 +0800</pubDate>
         
         <guid>https://xoxzzz.com/p/markdown/</guid>
-        <description>&lt;img src="https://xoxzzz.com/post/markDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
+        <description>&lt;img src="https://xoxzzz.com/post/MarkDown/markdown.png" alt="Featured image of post Markdown" /&gt;&lt;h1 id=&#34;md&#34;&gt;md&lt;/h1&gt;
 &lt;p&gt;这是vscode的快捷键,
 vscode比较适合写markdown&lt;/p&gt;
 &lt;table&gt;
@@ -334,7 +335,7 @@ vscode比较适合写markdown&lt;/p&gt;
         <pubDate>Fri, 22 Jan 2021 18:15:16 +0800</pubDate>
         
         <guid>https://xoxzzz.com/p/vim/</guid>
-        <description>&lt;img src="https://xoxzzz.com/post/vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
+        <description>&lt;img src="https://xoxzzz.com/post/Vim/vim.png" alt="Featured image of post Vim" /&gt;&lt;h1 id=&#34;vim&#34;&gt;Vim&lt;/h1&gt;
 &lt;h2 id=&#34;三种模式&#34;&gt;三种模式&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -636,8 +637,5 @@ git push -u master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         
-=======
-        <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xoxzzz.com/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> bba6d463d1019c2ffd9fbfd8f6f5eb40eb83e2ff
     </channel>
 </rss>
