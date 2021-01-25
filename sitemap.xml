@@ -3,121 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mygithub-cx.github.io/categories/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/categories/life/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/null/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/post/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/p/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E4%BA%86/</loc>
-    <lastmod>2021-01-23T13:14:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/categories/language/</loc>
-    <lastmod>2021-01-22T18:18:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/p/markdown/</loc>
-    <lastmod>2021-01-22T18:18:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/markdown/</loc>
-    <lastmod>2021-01-22T18:18:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/text-edit/</loc>
-    <lastmod>2021-01-22T18:15:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/categories/tool/</loc>
-    <lastmod>2021-01-22T18:15:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/p/vim/</loc>
-    <lastmod>2021-01-22T18:15:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/vim/</loc>
-    <lastmod>2021-01-22T18:15:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/database/</loc>
-    <lastmod>2021-01-22T13:06:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/p/firstuseblog/</loc>
-    <lastmod>2021-01-22T13:06:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/hugo/</loc>
-    <lastmod>2021-01-22T13:06:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/tags/java/</loc>
-    <lastmod>2021-01-22T13:06:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/p/java-%E4%B8%8E-%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2021-01-22T13:06:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mygithub-cx.github.io/about/</loc>
+    <loc>https://xoxzzz.com/about/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mygithub-cx.github.io/page/</loc>
+    <loc>https://xoxzzz.com/page/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mygithub-cx.github.io/archives/</loc>
+    <loc>https://xoxzzz.com/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mygithub-cx.github.io/categories/school/</loc>
+    <loc>https://xoxzzz.com/categories/</loc>
   </url>
   
   <url>
-    <loc>https://mygithub-cx.github.io/search/</loc>
+    <loc>https://xoxzzz.com/categories/language/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/life/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/school/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xoxzzz.com/categories/tool/</loc>
   </url>
   
 </urlset>
