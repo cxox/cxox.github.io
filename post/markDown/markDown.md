@@ -1,15 +1,3 @@
----
-title: "Markdown"
-description: "markdown常用标签提示"
-date: 2021-01-22T18:18:45+08:00
-draft: false
-image: /post/markDown/markdown.png
-categories: 
-    - language
-tags:
-    - markdown
----
-
 # md
 这是vscode的快捷键,
 vscode比较适合写markdown
@@ -44,11 +32,9 @@ ctrl+shift+k|删除一行
 ```html
 <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg">
 ```
-<img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg">
-
-看开这里不行,不然应该在这句话上面是显示下面这张图
-
-![img](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg)
+两张相同的图片，不同的书写方式
+- <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg">
+- ![img](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg)
 
 ### 字体
 ```md

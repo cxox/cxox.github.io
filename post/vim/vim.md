@@ -1,16 +1,3 @@
----
-title: "Vim"
-description: "文本编辑器常用快捷键提示"
-date: 2021-01-22T18:15:16+08:00
-draft: false
-image: /post/vim/vim.png
-categories: 
-    - tool
-tags:
-    - text edit
-    - vim
----
-
 # Vim
 
 ## 三种模式 

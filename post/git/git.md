@@ -1,15 +1,3 @@
----
-title: "Git"
-description: "关于git的命令及一些相关的内容"
-date: 2021-01-24T18:53:26+08:00
-draft: false
-# image: /post/git/git.png
-categories:
-    - tool
-tags:
-    - git
----
-
 # Git使用
 
 ## 登陆
