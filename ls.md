@@ -1,20 +1,20 @@
-# 学习笔记清单
+# 首页未列出的学习笔记
 
 ## 软件设计师
 [catalog](/post/softwareDesigner/catalog.md)
 
 ### cs
-- [computerCompositionAndArchitecture](/post/softwareDesigner/cs/computerCompositionAndArchitecture.md)
+1. [computerCompositionAndArchitecture](/post/softwareDesigner/cs/computerCompositionAndArchitecture.md)
 
 ### os
-- [basicPrinciplesOfOperatingSystem](/post/softwareDesigner/os/basicPrinciplesOfOperatingSystem.md)
+1. [basicPrinciplesOfOperatingSystem](/post/softwareDesigner/os/basicPrinciplesOfOperatingSystem.md)
 
 ### db
-- [DatabaseSystem](/post/softwareDesigner/db/DatabaseSystem.md)
+1. [DatabaseSystem](/post/softwareDesigner/db/DatabaseSystem.md)
 
 ### net
-- [ip](/post/softwareDesigner/net/ip.md)
-- [html](/post/softwareDesigner/net/html.md)
+1. [ip](/post/softwareDesigner/net/ip.md)
+1. [html](/post/softwareDesigner/net/html.md)
 
 ### struct
-- [dataStruct](/post/softwareDesigner/struct/dataStruct.md)
+1. [dataStruct](/post/softwareDesigner/struct/dataStruct.md)

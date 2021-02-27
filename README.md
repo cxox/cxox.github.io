@@ -1,31 +1,31 @@
 # welcome
 
 ## computer
-- [os](post/computer/os.md)
-- [externalStorage](post/computer/externalStorage.md)
-- [ip](post/computer/computerNetwork/ip.md)
+1. [os](post/computer/os.md)
+1. [externalStorage](post/computer/externalStorage.md)
+1. [ip](post/computer/computerNetwork/ip.md)
 
 ## java
-- [java](post/java/java.md)
-- [java](post/java/javaDatabase.md)
+1. [java](post/java/java.md)
+1. [javaDatabase](post/java/javaDatabase.md)
 
 ## linux
-- [bash](post/linux/bash.md)
-- [userGroupPower](post/linux/userGroupPower.md)
+1. [bash](post/linux/bash.md)
+1. [userGroupPower](post/linux/userGroupPower.md)
 
 ## mysql
-- [mysql](post/mysql/mysql.md)
-- [建表](post/mysql/建表.md)
-- [select](post/mysql/select.md)
+1. [mysql](post/mysql/mysql.md)
+1. [建表](post/mysql/建表.md)
+1. [select](post/mysql/select.md)
 
 ## search
-- [search](post/search/search.md)
+1. [search](post/search/search.md)
 
 ## shortcutKey
-- [shortcutKey](post/shortcutKey.md)
+1. [shortcutKey](post/shortcutKey.md)
 
 ## tool
-- [vim](post/vim/vim.md)
-- [git](post/git/git.md)
-- [markDown](post/markDown/markDown.md)
-- [dos](post/dos.md)
+1. [vim](post/vim/vim.md)
+1. [git](post/git/git.md)
+1. [markDown](post/markDown/markDown.md)
+1. [dos](post/dos.md)
