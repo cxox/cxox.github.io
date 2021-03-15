@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+#cmd_line{
+    padding: 15px;
+}
