@@ -1,7 +1,9 @@
 # welcome
 
-## python
-1. [python基本](post/python/python.md)
+## computer
+1. [os](post/computer/os.md)
+1. [externalStorage](post/computer/externalStorage.md)
+1. [ip](post/computer/computerNetwork/ip.md)
 
 ## java
 1. [java](post/java/java.md)
