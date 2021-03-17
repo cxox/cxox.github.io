@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xoxzzz</title>
-    <link rel="stylesheet" href="main.css">
+    <title>shell</title>
+    <link rel="stylesheet" href="css/shell.css">
 </head>
-
-<body id="body">
-    <dir id="cmd_line">
-        <h2 id="h2">Welcome to` xoxzzz.com `Here is an imitation shell</h2>
-        <h2 id="h2">log in : cibert</h2>
-        <h2 id="h2">password : </h2>
-        <h2 id="h2">cibert@github$ ~ ls</h2>
-        <h2 id="h2">
-            <a href="https://xoxzzz.com/note">note</a>
-            <a href="https://xoxzzz.com/ls">ls</a>
-        </h2>
-        <h2 id="h2">cibert@github$ ~ </h2>
-    </dir>
+<body>
+    <form action="#" method="GET">
+        <dir id="historyInfo"></dir>
+        <span id="beforeInput">login : </span>
+        &nbsp;
+        <input type="text" id="input" autocomplete="off" autofocus />
+        <input type="submit" id="commitButton" value="commit" />
+    </form>
 </body>
-<script type="text/javascript" src="/main.js"></script>
+<script src="js/shell.js"></script>
 </html>
