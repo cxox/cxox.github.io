@@ -15,7 +15,8 @@ Connection conn = Driverment.getConnection(url,username,password);
 Statement stat = conn.createStatement();
 ```
 
-### 更安全的版本 -> prepareStatement 防止sql注入   
+### 更安全的版本 -> `prepareStatement` 防止`SQL`注入
+
 ```java
 String sql = "select * from student where name = ? ";
 PrepareStatement stat = conn.ptepateStatement();
@@ -39,6 +40,7 @@ public int executeUpdate(String sql, Object... params) throws SQLException{
 ```
 
 #### 保证事务的原子性
+
 ```java
 // try...catch
 conn.setAutoCommit(false);
@@ -48,7 +50,8 @@ conn.commit();
 conn.rollback();
 ```
 
-## 保存结果 
+## 保存结果
+
 ```java
 ResultSet rs = stat.executeQurey();
 ```

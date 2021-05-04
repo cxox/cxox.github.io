@@ -8,7 +8,7 @@
 1. [javaDatabase](post/java/javaDatabase.md)
 
 ## linux
-1. [bash](post/linux/bash.md)
+1. [bash](post/linux/base.md)
 1. [userGroupPower](post/linux/userGroupPower.md)
 
 ## mysql
