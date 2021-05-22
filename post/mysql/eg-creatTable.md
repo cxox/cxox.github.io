@@ -1,4 +1,4 @@
-# mysql
+# creat table
 
 [mysql总结](https://wwtianmei.cn/2020/12/31/mysql-zong-he-lian-xi/ "布衣的私人小站")
 

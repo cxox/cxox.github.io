@@ -1,5 +1,6 @@
-MonoBehavior类
-1. 必然事件
+# MonoBehavior类
+
+必然事件
 必然事件是从MonoBehavior继承而来，就是Monobehavior的生命周期，我们先来了解MonoBehavior函数的
 执行顺序
 Awake()-OnEnable()-Start()-Update()-LateUpdate()-OnDisable()-Destory()
@@ -107,7 +108,7 @@ Transform类
 （5）transform.localScale：指物体的缩放（三个轴都不为0，否则会消失）
 
 我们先把小球隐藏掉，写一段代码控制方块的旋转和移动。
-
+```C#
 	void Update () {
 		if(Input.GetKey(KeyCode.W)){
 			transform.Translate(0, 0, 2f * Time.deltaTime);
@@ -122,7 +123,7 @@ Transform类
 			transform.Rotate(0, 30 * Time.deltaTime, 0);
 		}
 	}
-
+```
 运行得到以下效果：
 
 这是一个类似汽车运行的移动控制。
@@ -130,7 +131,7 @@ Transform类
 下面实现一组类似泡泡堂中的角色移动控制：
 泡泡堂中的角色一般是随着键盘的输入直接改变面向，所以直接用eulerAngels就可以完成！
 下面是更改后的代码：
-
+```C#
 void Update () {
 		if(Input.GetKey(KeyCode.W)){
 			transform.Translate(0, 0, 2f * Time.deltaTime);
@@ -151,14 +152,14 @@ void Update () {
 			transform.eulerAngles = new Vector3(0,90,0);
 		}
 	}
-
+```
 我们就能得到这个效果。注：蓝色标记是面向，注意面向的变化
 
 这里还存在一个问题，就是同时按下两个方向键史面向不会改变。
 
 那么我们需要实现王者荣耀类的角色移动方式该如何做呢，这里我们就应该把移动和转向功能分开，分别实现：
 代码如下：
-
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -197,7 +198,7 @@ public class Control : MonoBehaviour {
 	}
 
 }
-
+```
 最终我们可以得到想要实现的效果了！
 
 
@@ -215,7 +216,7 @@ rigidbody类里面有以下几个方法：
 可以使刚体进入休眠状态（至少休眠一帧），一般在Awake（）函数里面。
 
 4.WakeUp
-使刚体从休眠状态唤醒，例如 rigidbody.WakeUp()
-————————————————
+使刚体从休眠状态唤醒，例如 rigidbody.WakeUp()  
+————————————————  
 版权声明：本文为CSDN博主「王有种」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/ChinaNinjaQAQ/article/details/88999411

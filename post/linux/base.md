@@ -280,4 +280,3 @@ find /etc -atime -7 | xargs grep "ssh"
 find /etc -type f -size +1M -name "*net*"
 ```
 
-[bash02](post/linux/base02.md)

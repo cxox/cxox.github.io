@@ -1,3 +1,5 @@
+# crumbs
+
 -   占位符：pass
 
     -   ```python
@@ -18,7 +20,7 @@
 
    -   ```python
 		print(a if(a>b) else b)
-       ```
+     ```
    
 -   字典生成式
 
@@ -36,4 +38,5 @@
 
 -   元组是不可变序列，没有生成式
 
-![image-20210320152337501](python%E7%90%90%E7%A2%8E%E5%B0%8F%E5%86%85%E5%AE%B9.assets/image-20210320152337501.png)
+![image-20210320152337501](crumbs.assets/image-20210320152337501.png)
+
