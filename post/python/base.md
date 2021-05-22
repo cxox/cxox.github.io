@@ -6,7 +6,7 @@ python 一切皆对象
 
 - Python注释 以`# `标记
 ```python
-# 单行注释
+    # 单行注释
 ```
 - 多行注释
 ```python
@@ -22,9 +22,24 @@ python 一切皆对象
 
 ```python
 c='你'\
-   '好'\
-   '呀!'
+'好'\
+'呀!'
 ```
+
+## 分支
+- if
+    ```python
+    a=1
+    b=2
+    # --------另一种方式------------
+    if a>b:
+    	print(a)
+    elif a==b:
+        print('a==b')
+    else:
+    	print(b)
+    print("hello")
+    ```
 
 ## 循环
 
@@ -39,13 +54,11 @@ c='你'\
     for i in range(10):
         if i == 7:
             break
-    	else:
+        else:
             print(i)
     else:
         print('此时else 不会 执行')
     ```
-
-    
 
 -   range()
 
@@ -54,31 +67,20 @@ c='你'\
 
 ### 循环
 
-- if
-```python
-a=1
-b=2
-# --------另一种方式------------
-if a>b:
-	print(a)
-elif a==b:
-    print('a==b')
-else:
-	print(b)
-print("hello")
-
-```
 - for-in
-```python
-for item in range(10)
-	print(i)
-```
+    ```python
+    for item in range(10)
+	    print(i)
+    ```
+
 - while
-```python
-while True:
-    print('Hello')
-```
+    ```python
+    while True:
+        print('Hello')
+    ```
+
 ## 数据类型
+
 1. 整型（123）
 2. 浮点型（1.0）
 3. 复数（a+bi）

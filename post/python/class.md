@@ -1,9 +1,5 @@
 # class
 
-
-
-[TOC]
-
 ## python class base
 
 ### function & method
@@ -96,7 +92,6 @@ print(t._Test__name) # 可以访问，但最好不用，否则封装就失去了
 1. 重写(override)：对父类方法不满意就用相同的方法名重新写一遍
 
 
-
 ## 多态 —— 提高代码可拓展性可维护性
 
 python多态，不关心对象是什么，只关心对象的行为
@@ -121,7 +116,6 @@ b = B()
 print(run(a)) # GO!!!
 print(run(b)) # gogogo!!!
 ```
-
 
 
 ## special method

@@ -1,12 +1,10 @@
 # [Python note list](https://docs.python.org/zh-cn/3.8)
 
-
-
 ## note
 
-[python start](base)
+[python start](base.md)
 
-[python crumbs](python/crumbs)
+[python crumbs](crumbs.md)
 
 [class](class.md)
 
