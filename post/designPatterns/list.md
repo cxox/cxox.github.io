@@ -6,7 +6,7 @@
 
 [what is design patterns](designPatterns.md)
 
-[singleton](singreton.md)
+[singleton](singleton.md)
 
 [strategy](strategy.md)
 
