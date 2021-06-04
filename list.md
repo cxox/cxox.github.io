@@ -1,4 +1,4 @@
-1. # Web note
+# Web note
 
 ## independent
 
@@ -18,7 +18,13 @@
 - [sourceCodeReading](post/sourceCodeReading/list.md)
 <!-- - [createGame](post/createGame/list.md) -->
 
-
 ## complex
 
 - [softwareDesigner](post/softwareDesigner/list.md)
+
+
+
+## favorites
+
+[CodeSheep的收藏夹](web/CodeSheep的浏览器收藏夹.html)
+
