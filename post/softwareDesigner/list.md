@@ -21,5 +21,8 @@
 1. [externalStorage](os/externalStorage.md)
 
 ## struct
-1. [dataStruct](struct/dataStruct.md)
+
+1. [数据结构介绍](struct/数据结构介绍.md)
+1. [dataStructBase](struct/dataStructBase.md)
 1. [线性表](struct/线性表.md)
+
