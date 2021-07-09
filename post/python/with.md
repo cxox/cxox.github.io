@@ -1,8 +1,8 @@
 # with 上下文管理器
 
-![image-20210522191850862](with.assets/image-20210522191850862.png)
+![image-20210522191850862](https://gitee.com/mygiteecx/img/raw/master/img//20210709201633.png)
 
-<img src="with.assets/image-20210522191808789.png" alt="image-20210522191808789" style="zoom: 80%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201636.png" alt="image-20210522191808789" style="zoom: 80%;" />
 
 
 

@@ -11,7 +11,7 @@
 
 ## 稀疏矩阵
 
-<img src="dataStruct.assets/image-20210226225816755.png" alt="image-20210226225816755" style="zoom:70%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201428.png" alt="image-20210226225816755" style="zoom:70%;" />
 
 做题方法：特殊值法
 
@@ -52,5 +52,5 @@
 
 3.  对于任何一颗二叉树，如果叶子结点有$n_{0}$，度为二的结点有$n_{2}$，那么==$n_{0}=n_{2} + 1$==
 
-    ![image-20210227152109080](dataStruct.assets/image-20210227152109080.png)
+    ![image-20210227152109080](https://gitee.com/mygiteecx/img/raw/master/img//20210709201432.png)
 

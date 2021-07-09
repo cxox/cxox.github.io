@@ -51,7 +51,7 @@
 
 硬盘,显卡等都是外设!不包含在计算机结构中
 
-<img src="computerCompositionAndArchitecture.assets/image-20210203152501739.png" alt="image-20210203152501739" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200902.png" alt="image-20210203152501739" style="zoom:67%;" />
 
 - CPU
     - 运算器
@@ -76,11 +76,11 @@
     - MISD:多指令流单数据流
         - 被证明不可能
     - MIMD:多指令流多数据流
-<img src="computerCompositionAndArchitecture.assets/flynn.png" alt="flynn" style="zoom:67%;" />
+    <img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200914.png" alt="flynn" style="zoom:67%;" />
 
 ## CISC & RISC
 
-<img src="computerCompositionAndArchitecture.assets/ciscRisc.png" alt="ciscRisc" style="zoom: 67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200918.png" alt="ciscRisc" style="zoom: 67%;" />
 
 ## 流水线
 
@@ -124,7 +124,7 @@ s = 不使用流水线的时间 / 使用流水线的执行时间
 
 ### 流水线的效率
 
-<img src="computerCompositionAndArchitecture.assets/流水线.png" alt="image-20210127221550726" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200923.png" alt="image-20210127221550726" style="zoom:67%;" />
 
 n个任务占用的时区=>$ 4 \times (\vartriangle{t}+\vartriangle{t}+\vartriangle{t}+3\vartriangle{t}) $
 
@@ -134,17 +134,17 @@ k个流水段的总的时空区=>($15\vartriangle{t}$ * 4) = 60 * t
 
 ## 层次化存储结构
 
-<img src="computerCompositionAndArchitecture.assets/image-20210127223620368.png" alt="image-20210127223620368" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200928.png" alt="image-20210127223620368" style="zoom:67%;" />
 
 ### 存储器的层次结构
 
-<img src="computerCompositionAndArchitecture.assets/image-20210203152852105.png" alt="image-20210203152852105" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200931.png" alt="image-20210203152852105" style="zoom:67%;" />
 
 ### Cache
 
-<img src="computerCompositionAndArchitecture.assets/image-20210127224602920.png" alt="image-20210127224602920" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200938.png" alt="image-20210127224602920" style="zoom:67%;" />
 
-<img src="computerCompositionAndArchitecture.assets/image-20210128155039791.png" alt="image-20210128155039791" style="zoom: 67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200943.png" alt="image-20210128155039791" style="zoom: 67%;" />
 
 
 
@@ -174,7 +174,7 @@ k个流水段的总的时空区=>($15\vartriangle{t}$ * 4) = 60 * t
 
 #### 编址
 
-<img src="computerCompositionAndArchitecture.assets/image-20210128181639382.png" alt="image-20210128181639382" style="zoom: 67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200950.png" alt="image-20210128181639382" style="zoom: 67%;" />
 
 (1)B
 	C&FFFH + 1 - ACOOOH = 1C000H = 112k
@@ -190,11 +190,11 @@ $$
 
 ### 磁盘结构与参数
 
-<img src="computerCompositionAndArchitecture.assets/image-20210128195149743.png" alt="image-20210128195149743" style="zoom: 67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200952.png" alt="image-20210128195149743" style="zoom: 67%;" />
 
 题目:
 
-<img src="computerCompositionAndArchitecture.assets/image-20210128200800942.png" alt="image-20210128200800942" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709200956.png" alt="image-20210128200800942" style="zoom:67%;" />
 
 ## 总线
 
@@ -222,7 +222,7 @@ $$
 
 **R** : 可靠度
 
-<img src="computerCompositionAndArchitecture.assets/image-20210128203513870.png" alt="image-20210128203513870" style="zoom:50%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201001.png" alt="image-20210128203513870" style="zoom:50%;" />
 
 $ R \times (1-(1-R)^3) \times (1-(1-R)^2) $
 

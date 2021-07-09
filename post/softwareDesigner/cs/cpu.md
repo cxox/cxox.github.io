@@ -25,7 +25,7 @@
 提高CPU的执行效率，对单线程没有副作用
 但！在多线程中如果因为这个而出现了BUG,一般情况下是很难发现的！
 
-![image-20210203174503900](cpu.assets/image-20210203174503900.png)
+![image-20210203174503900](https://gitee.com/mygiteecx/img/raw/master/img//20210709201024.png)
 
 如上图所示，这个程序执行了87336次才出现了一次指令重排序
 
@@ -35,13 +35,13 @@ Java => [volatile](https://www.cnblogs.com/zhengbin/p/5654805.html)声明 （通
 
 [volatile文章2](https://www.cnblogs.com/dolphin0520/p/3920373.html)
 
-![image-20210203175142766](cpu.assets/image-20210203175142766.png)
+![image-20210203175142766](https://gitee.com/mygiteecx/img/raw/master/img//20210709201031.png)
 
-![image-20210203213215612](cpu.assets/image-20210203213215612.png)
+![image-20210203213215612](https://gitee.com/mygiteecx/img/raw/master/img//20210709201034.png)
 
 ## 缓存行（cache line）
 
-![image-20210203175725153](cpu.assets/image-20210203175725153.png)
+![image-20210203175725153](https://gitee.com/mygiteecx/img/raw/master/img//20210709201038.png)
 
 一个缓存行64个字节，也就是64 * 8 byte
 
@@ -49,7 +49,7 @@ Java => [volatile](https://www.cnblogs.com/zhengbin/p/5654805.html)声明 （通
 
 MESI（inter CPU采用此协议）
 
-![image-20210203190346894](cpu.assets/image-20210203190346894.png)
+![image-20210203190346894](https://gitee.com/mygiteecx/img/raw/master/img//20210709201043.png)
 
 缓存行的四种状态：
 
@@ -60,13 +60,13 @@ MESI（inter CPU采用此协议）
 
 硬件上用缓存锁通知其他CPU内核
 
-![image-20210203191009861](cpu.assets/image-20210203191009861.png)
+![image-20210203191009861](https://gitee.com/mygiteecx/img/raw/master/img//20210709201047.png)
 
 ### 缓存行对齐
 
 应对缓存行而产生的一些编码方式——实现对多进程共享的数据加速处理
 
-![image-20210203193447592](cpu.assets/image-20210203193447592.png)
+![image-20210203193447592](https://gitee.com/mygiteecx/img/raw/master/img//20210709201051.png)
 
 以上程序，无论如何读取cursor到缓存行都要读入一些*填充数据*，从而使得缓存行的64字节中只有一个有效的数据，从而避免cpu内核之间因数据修改的相互通信，节省时间
 

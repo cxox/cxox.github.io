@@ -2,7 +2,7 @@
 
 ## `Built-in`
 
-<img src="modules.assets/image-20210522180527123.png" alt="image-20210522180527123" style="zoom: 80%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201559.png" alt="image-20210522180527123" style="zoom: 80%;" />
 
 ### `sys`
 
@@ -20,7 +20,7 @@
 
 #### `os`
 
-<img src="modules.assets/image-20210522193713529.png" alt="image-20210522193713529" style="zoom:67%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201603.png" alt="image-20210522193713529" style="zoom:67%;" />
 
 ```python
 import os
@@ -31,7 +31,7 @@ os.startfile('c:\Program Files\Tencent\QQ\Bin\qq.exe') # 打开QQ
 
 #### `os.path`
 
-![image-20210522195139758](modules.assets/image-20210522195139758.png)
+![image-20210522195139758](https://gitee.com/mygiteecx/img/raw/master/img//20210709201610.png)
 
 ```python
 print(os.path.abspath('modules.py'))

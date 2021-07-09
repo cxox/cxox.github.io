@@ -1,6 +1,6 @@
 # file
 
-<img src="file.assets/image-20210522183351957.png" alt="image-20210522183351957" style="zoom:50%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201546.png" alt="image-20210522183351957" style="zoom:50%;" />
 
 eg:
 

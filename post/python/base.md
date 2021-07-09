@@ -63,7 +63,7 @@ c='你'\
 -   range()
 
     - 左闭右开
-	- ![image-20210319175055920](python.assets/image-20210319175055920.png)
+	- ![image-20210319175055920](https://gitee.com/mygiteecx/img/raw/master/img//20210709201506.png)
 
 ### 循环
 
@@ -104,6 +104,6 @@ c='你'\
     2.  or
 6.  =
 
-![image-20210319172644765](python.assets/image-20210319172644765.png)
+![image-20210319172644765](https://gitee.com/mygiteecx/img/raw/master/img//20210709201515.png)
 
 ​        

@@ -18,7 +18,7 @@ Java百度介绍<https://baike.baidu.com/item/Java/85979?fr=aladdin>
 
 Java概念图
 
-<img src="java.assets/Java%E6%A6%82%E5%BF%B5%E5%9B%BE.jpg" alt="Java概念图" style="zoom:150%;" />
+![Java概念图](https://gitee.com/mygiteecx/img/raw/master/img//20210709201918.jpg)
 
 ## Java的删除
 
@@ -38,7 +38,7 @@ Java概念图
 
 ### 参数信息
 
-<img src="java.assets/image-20210204202422981.png" alt="image-20210204202422981" style="zoom:50%;" />
+![image-20210204202422981](https://gitee.com/mygiteecx/img/raw/master/img//20210709201930.png)
 
 ### 生成Java文档
 

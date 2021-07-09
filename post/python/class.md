@@ -9,9 +9,9 @@ instance method
 class method
 static method
 
-<img src="class.assets/image-20210522152429590.png" alt="image-20210522152429590" style="zoom: 50%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201525.png" alt="image-20210522152429590" style="zoom: 50%;" />
 
-<img src="class.assets/image-20210522171633260.png" alt="image-20210522171633260" style="zoom:50%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201527.png" alt="image-20210522171633260" style="zoom:50%;" />
 
 ### constructor & dynamic binding
 
@@ -69,7 +69,7 @@ print(t._Test__name) # 可以访问，但最好不用，否则封装就失去了
             self.name = name
         def info(self):
             return self.name
-
+    
     class Student(Person):
         def __init__(self, name, school):
             super().__init__(name)
@@ -142,5 +142,5 @@ def __init__(self):
 
 对象创建流程：
 
-<img src="class.assets/image-20210522170627197.png" alt="image-20210522170627197" style="zoom:50%;" />
+<img src="https://gitee.com/mygiteecx/img/raw/master/img//20210709201533.png" alt="image-20210522170627197" style="zoom:50%;" />
 

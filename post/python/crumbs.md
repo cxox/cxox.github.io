@@ -38,5 +38,5 @@
 
 -   元组是不可变序列，没有生成式
 
-![image-20210320152337501](crumbs.assets/image-20210320152337501.png)
+![image-20210320152337501](https://gitee.com/mygiteecx/img/raw/master/img//20210709201541.png)
 

@@ -7,7 +7,7 @@
 
 ## ducker的基本组成
 
-![image-20210708160612084](C:\Users\cx\AppData\Roaming\Typora\typora-user-images\image-20210708160612084.png)
+![docker构成](https://gitee.com/mygiteecx/img/raw/master/img//20210709202209.png)
 
 - 镜像（image）
   - 模板

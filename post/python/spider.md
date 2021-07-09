@@ -20,9 +20,9 @@ scrapy genspider [spiderName] [domainName]
 
 ### `scrapy`结构
 
-![scrapy_architecture](spider.assets/scrapy_architecture_02.png)
+![scrapy_architecture](https://gitee.com/mygiteecx/img/raw/master/img//20210709201619.png)
 
-![image-20210630145156799](spider.assets/image-20210630145156799.png)
+![image-20210630145156799](https://gitee.com/mygiteecx/img/raw/master/img//20210709201626.png)
 
 
 ```

@@ -11,9 +11,9 @@
 > ssh-keygen -t rsa [-C 邮箱]
 > // 前面是生成密钥,后面的参数是加密(使用的加密算法),可以不写
 
-![.ssh目录](ssh.png)
+![ssh](https://gitee.com/mygiteecx/img/raw/master/img//20210709202028.png)
 添加public公钥
-![在gitee上使用public_key](key.png)
+![key](https://gitee.com/mygiteecx/img/raw/master/img//20210709202034.png)
 
 ## git命令
 
@@ -82,7 +82,7 @@ git config --global user.email *********@**.com
             # 反悔了,将最近提交的文件从暂存区取回,加上文件名表示只移除特定文件
             ```
         1. **从仓库返回**:文件状态恢复HEAD后有几个"~"就表示退到多少次提交之前,也可以用数字 HEAD~3 相当于 HEAD~~~  
-        回到指定的快照直接输入几位识别码就行,例如:  
+           回到指定的快照直接输入几位识别码就行,例如:  
             ```bash
             git reset 3j2ak43d3f
             ```
@@ -142,7 +142,7 @@ git config --global user.email *********@**.com
         ```bash
         git checkout HEAD~
         ```
-    ![分支](branch.png)
+        ![branch](https://gitee.com/mygiteecx/img/raw/master/img//20210709202044.png)
 
 - 与远程仓库的交互
     1. 查看连接状态

@@ -16,18 +16,16 @@
 1.  迪米特原则：
 1.  合成复用原则：考虑好类之间的关系，人和动物可以继承，但是人和手就要使用组合
 
-<img src="designPatterns%20.assets/image-20210409205407947.png" alt="image-20210409205407947" style="zoom:67%;" />
-
-
+![image-20210409205407947](https://gitee.com/mygiteecx/img/raw/master/img//20210709202250.png)
 
 ## 详细
 
 1.  工厂模式`Factory` 
-    <img src="designPatterns%20.assets/image-20210409215059936.png" alt="image-20210409215059936" style="zoom:50%;" />
+    ![image-20210409215059936](https://gitee.com/mygiteecx/img/raw/master/img//20210709202329.png)
     1.  简单工厂模式（静态工厂模式）
-        <img src="designPatterns%20.assets/image-20210409214442604.png" alt="image-20210409214442604" style="zoom:33%;" />
+        ![image-20210409214442604](https://gitee.com/mygiteecx/img/raw/master/img//20210709202314.png)
     1.  工厂方法模式：每一个类都有自己的工厂，符合开闭原则，但麻烦
-        <img src="designPatterns%20.assets/image-20210409214339370.png" alt="image-20210409214339370" style="zoom:33%;" />
+        ![image-20210409214339370](https://gitee.com/mygiteecx/img/raw/master/img//20210709203135.png)
     1.  抽象工厂模式：创建工厂的工厂
 2.  创造者模式
 
