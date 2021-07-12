@@ -2,7 +2,7 @@
 
 ## independent
 
--  [English](post\english\list.md) 
+-  [English](post/english/list.md) 
 -  [Python](post/python/list.md) 
 -  [Java](post/java/list.md) 
 -  [Android](post/android/list.md) 
