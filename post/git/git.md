@@ -161,7 +161,7 @@ git config --global user.email *********@**.com
         ```bash
         git push [仓库名,例如origin]
         ```
-    
+
 - 琐碎的小命令:并不是git的命令
     ```bash
     cd

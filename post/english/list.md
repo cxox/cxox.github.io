@@ -8,5 +8,15 @@
 
   > 唱歌唱得好不好，和你识不识乐谱没啥关系，会不会音标和读不读得好英语也没啥关系。再说了，等你学会音标，小半年都过去了。你要学会读英语，就去找音频资料来练习跟读，听一句模仿一句，就跟学唱歌一样，坚持跟读一两个月能为你后面学英语打下很好的基础。
 
-3.  [英语阅读](https://www.24en.com/read/ '新闻、演讲、文摘、故事、双语美文、英语散文 - 爱思英语 (24en.com)') 
+1.  [双语新闻 - 中国日报网英语点津-LanguageTips (chinadaily.com.cn)](https://language.chinadaily.com.cn/news_bilingual/)
+
+
+
+综合
+
+1. [爱思英语网 - 免费的成人、少儿英语学习培训网站 (24en.com)](https://www.24en.com/)
+
+听力
+
+1. [VOA Learning English - About Us - VOA - Voice of America English News (voanews.com)](https://learningenglish.voanews.com/p/5373.html)
 
