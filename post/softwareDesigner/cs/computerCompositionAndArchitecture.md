@@ -130,7 +130,7 @@ n个任务占用的时区=>$ 4 \times (\vartriangle{t}+\vartriangle{t}+\vartrian
 
 k个流水段的总的时空区=>($15\vartriangle{t}$ * 4) = 60 * t
 
-
+![上面可能乱码，图片备用](https://gitee.com/mygiteecx/img/raw/master/img//20210719135827.png)
 
 ## 层次化存储结构
 

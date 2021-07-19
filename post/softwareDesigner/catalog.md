@@ -1,6 +1,6 @@
 # 软件设计师
 
-## 1. [计算机系统](cs\computerCompositionAndArchitecture.md)
+## 1. [计算机系统](cs/computerCompositionAndArchitecture.md)
 
 1. 计算机系统基础知识
 1. 计算机体系结构
@@ -70,7 +70,7 @@
 1. 智能挖掘算法
 1. 智能优化算法
 
-## 9. [数据库技术基础](db\DatabaseSystem.md) 
+## 9. [数据库技术基础](db/DatabaseSystem.md) 
 
 1. 基本概念 
 1. 数据模型
@@ -79,13 +79,13 @@
 1. 关系数据库的规范化
 1. 数据库的控制功能
 
-## 10. [网路与信息安全基础 ](net\net.md) 
+## 10. [网路与信息安全基础 ](net/net.md) 
 
 1. 网络概述
 1. 网络互连硬件
 1. 网络的协议与标准
 1. Internet及应用
-1. [信息安全基础知识](net\security.md) 
+1. [信息安全基础知识](net/security.md) 
 1. 网络安全概述
 
 ## 11. 标准化与知识产权基础
