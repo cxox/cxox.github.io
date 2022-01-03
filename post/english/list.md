@@ -10,8 +10,6 @@
 
 1.  [双语新闻 - 中国日报网英语点津-LanguageTips (chinadaily.com.cn)](https://language.chinadaily.com.cn/news_bilingual/)
 
-
-
 综合
 
 1. [爱思英语网 - 免费的成人、少儿英语学习培训网站 (24en.com)](https://www.24en.com/)
@@ -20,3 +18,10 @@
 
 1. [VOA Learning English - About Us - VOA - Voice of America English News (voanews.com)](https://learningenglish.voanews.com/p/5373.html)
 
+## 从0开始英语
+
+1. [小学单词](https://www.bilibili.com/video/BV1N541147jD)
+1. [初中单词]()
+1. [高中单词]()
+1. [大学单词]()
+1. [专业单词]()
